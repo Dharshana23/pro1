@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment2</title>
+	<style>
+		body{background-color:rgb(189,147,211);}
+		table, td{padding: 5px;}
+		form {border: 1px solid #4a4a4a;
+			margin: 20px;}
+	</style>
+
+</head>
+<body>
+	<h1 align="center">STUDENT FORM</h1>
+	<form>
+		<table align="center">
+			<tr>
+				<td><label for="stuid">Student ID</label></td>
+				<td><input type="text" name="stuid"></td>
+			</tr>
+			<tr>
+				<td><label for="name">Name</label></td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr>
+				<td>
+					<label for="dpt">Department</label>
+				</td>
+				<td>
+					<select name="dpt">
+						<option value="IT">IT</option>
+						<option value="CSE">CSE</option>
+						<option value="ECE">ECE</option>
+						<option value="Mech">Mech</option>
+						<option value="Civil">Civil</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="entyr">Entry Year</label></td>
+				<td><input type="text" name="entyr"></td>
+			</tr>
+			<tr>
+				<td><label for="extyr">Exit Year</label></td>
+				<td><input type="text" name="extyr"></td>
+			</tr>
+			<tr>
+				<td>
+					<label for="sec">Section</label>
+				</td>
+				<td>
+					<select name="sec">
+						<option value="A">A</option>
+						<option value="B">B</option>
+						<option value="C">C</option>
+						<option value="D">D</option>
+						<option value="E">E</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="regno">University Registration No.</label></td>
+				<td><input type="text" name="regno"></td>
+			</tr>
+			<tr>
+				<td>
+					<p>Gender</p>
+				</td>
+				<td>
+					<input type="radio" name="gender">
+					<label for="male">Male</label><br>
+					<input type="radio" name="gender">
+					<label for="female">Female</label>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="dob">DOB</label></td>
+				<td><input type="date" name="dob"></td>
+			</tr>
+			<tr>
+				<td><label for="fname">Father's Name</label></td>
+				<td><input type="text" name="fname"></td>
+			</tr>
+			<tr>
+				<td><label for="mname">Mothers's Name</label></td>
+				<td><input type="text" name="mname"></td>
+			</tr>
+			<tr>
+				<td><label for="cno1">Contact Num 1</label></td>
+				<td><input type="text" name="cno1"></td>
+			</tr>
+			<tr>
+				<td><label for="cno2">Contact Num 2</label></td>
+				<td><input type="text" name="cno2"></td>
+			</tr>
+			<tr>
+				<td><label for="email">Email Address</label></td>
+				<td><input type="text" name="email"></td>
+			</tr>
+			<tr>
+				<td><label for="Address">Address</label></td>
+				<td><input type="text" name="Address"></td>
+			</tr>
+			<tr>
+				
+				<td>
+					<label for="state">State</label>
+				</td>
+				<td>
+					<select name="state">
+						<option value="tn">TamilNadu</option>
+						<option value="ka">Karnataka</option>
+						<option value="kerala">Kerala</option>
+						<option value="ap">AndhraPradesh</option>
+						<option value="tg">Telangana</option>
+						<option value="dl">Delhi</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="District">District</label>
+				</td>
+				<td>
+					<select name="District">
+						<option value="Madurai">Madurai</option>
+						<option value="Chennai">Chennai</option>
+						<option value="Coimbatore">Coimbatore</option>
+						<option value="Tirunelveli">Tirunelveli</option>
+						<option value="Erode">Erode</option>
+						<option value="Trichy">Trichy</option>
+						<option value="Namakal">Namakal</option>
+						<option value="Kanyakumari">Kanyakumari</option>
+						<option value="Salem">Salem</option>
+						<option value="Theni">Theni</option>
+						<option value="Vellore">Vellore</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="SSLC mark">SSLC Mark</label></td>
+				<td><input type="text" name="SSLC mark"></td>
+			</tr>
+			<tr>
+				<td><label for="HSC mark">HSC Mark</label></td>
+				<td><input type="text" name="HSC mark"></td>
+			</tr>
+			<tr>
+				<td>
+					<label for="board">Board of Study</label>
+				</td>
+				<td>
+					<select name="board">
+						<option value="stateboard">State Board</option>
+						<option value="cbse">CBSE</option>
+						<option value="icse">ICSE</option>
+						<option value="ib">IB</option>
+						<option value="igcse">IGCSE</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="medium">Medium of Study</label>
+				</td>
+				<td>
+					<select name="medium">
+						<option value="english">English</option>
+						<option value="tamil">Tamil</option>
+						<option value="hindi">Hindi</option>
+						<option value="korean">Korean</option>
+						<option value="japanese">Japanese</option>
+						<option value="french">French</option>
+						<option value="sanskrit">Sanskirt</option>
+						<option value="thai">Thai</option>
+
+					</select>
+				</td>
+			</tr>
+			<tr align="center">
+				<td><input type="submit" name="Submit"></td>
+			</tr>
+		</table>
+</form>
+</body>
+</html>
+
